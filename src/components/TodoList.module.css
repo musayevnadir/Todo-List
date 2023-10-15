@@ -1,0 +1,137 @@
+/** @format */
+
+body {
+  background-color: black;
+}
+.todoListContainer {
+  background-color: #87cefa;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10rem;
+  border-radius: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.todoListText {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.todoListText:hover {
+  transform: scale(1.05);
+}
+
+.inpAndBtnContainer {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.inpAndBtnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 80%;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border: none;
+  color: black;
+  outline: none;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.input:hover {
+  transform: scale(1.01);
+  border: 1px solid white;
+  background-color: #87cefa;
+  color: white;
+}
+
+input:hover::placeholder {
+  color: white;
+}
+
+.btnAdd {
+  width: 15%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.btnAdd:hover {
+  transform: scale(1.05);
+  background-color: #87cefa;
+  border: 1px solid white;
+  color: white;
+}
+
+.addedList {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.inputValue {
+  width: 80%;
+  background-color: white;
+  height: 3.125rem;
+  padding-bottom: 1rem;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-top: 12px;
+}
+
+.inputValue:hover {
+  transform: scale(1.01);
+  background-color: #87cefa;
+  border: 1px solid white;
+  color: white;
+}
+
+.btnDelete {
+  width: 15%;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+}
+
+.btnDelete:hover {
+  transform: scale(1.05);
+  background-color: #87cefa;
+  border: 1px solid white;
+  color: white;
+}
